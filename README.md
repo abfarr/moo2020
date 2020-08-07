@@ -9,4 +9,4 @@ Sub graphs of random segements of the network (simulate hacking at random) of no
 Testing:
 Single fire and firefighter (may test multiples)
 
-1 solution algorithm: NSGA-II
+MOO solution algorithms for ILP: TBD (NSGA-II, ...)

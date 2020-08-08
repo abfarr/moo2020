@@ -25,22 +25,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="moo2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moo2020" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moo2020" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moo2020" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>

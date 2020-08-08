@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="354b6d33-802a-498f-9b62-82c97339db5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/data_graph_load.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/moo2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/moo2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/inf-power/inf-power.mtx" beforeDir="false" afterPath="$PROJECT_DIR$/data/inf-power/inf-power.mtx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/data_graph_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/data_graph_load.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +15,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphs/data_graph_load.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+                <marker date="1596915821146" expanded="true" signature="592:616" ph="..." />
               </folding>
             </state>
           </provider>
@@ -149,7 +145,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -179,10 +174,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphs/data_graph_load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <marker date="1596915821146" expanded="true" signature="592:616" ph="..." />
           </folding>
         </state>
       </provider>

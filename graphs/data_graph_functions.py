@@ -37,13 +37,13 @@ def knbrs(G, start, k):
 
     nbrs = {start}
     for l in range(k):
-        newnbrs = set((nbr for n in nbrs for nbr in G[n]))
-        nbrs = newnbrs | nbrs
+        new_nbrs = set((nbr for n in nbrs for nbr in G[n]))
+        nbrs = new_nbrs | nbrs
     return nbrs
 
 
 def xsubgraphs(G, x, k, seed=42):
-    """Randomly selects x number of subgraphs from G, where k is the numer of steps from central nodes to use 
+    """Randomly selects x number of subgraphs from G, where k is the number of steps from central nodes to use
     to create a connected subgraph
     
     :type G: networkx.Graph

@@ -9,7 +9,7 @@ def load_graph(file_loc='../data/inf-power/inf-power.mtx'):
     :type file_loc: str
     :param file_loc: Location of adjacency list file for data graph
     :rtype G: networkx.Graph
-    :return G:
+    :return G: Networkx Graph loaded from file with attributes 'B' and 'D' and node names 0 to size of graph-1
     """
 
     G = nx.read_adjlist(file_loc)
@@ -17,6 +17,11 @@ def load_graph(file_loc='../data/inf-power/inf-power.mtx'):
     # Rename nodes as integers (0 to size of graph)
     mapping = dict(zip(G, range(0, len(G))))
     G = nx.relabel_nodes(G, mapping)
+
+    # Give each node a burnt and defended status attribute and set all to 0 to start
+    init_bd_status = [0 for n in G.nodes()]
+    nx.set_node_attributes(G, 0, 'B')
+    nx.set_node_attributes(G, 0, 'D')
 
     return G
 
@@ -70,7 +75,7 @@ def xsubgraphs(G, x, k, seed=42):
     return subgraphs
 
 # # Example
-# G = load_graph(file_loc='../data/inf-power/inf-power.mtx')
+G = load_graph(file_loc='../data/inf-power/inf-power.mtx')
 # subgraphs = xsubgraphs(G, x=5, k=5, seed=42)
 # nx.draw_spring(subgraphs[0], node_size=200, width=1.5, with_labels=True)
 # plt.show()

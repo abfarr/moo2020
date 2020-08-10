@@ -75,7 +75,7 @@ def xsubgraphs(G, x, k, seed=42):
     return subgraphs
 
 # # Example
-G = load_graph(file_loc='../data/inf-power/inf-power.mtx')
+# G = load_graph(file_loc='../data/inf-power/inf-power.mtx')
 # subgraphs = xsubgraphs(G, x=5, k=5, seed=42)
 # nx.draw_spring(subgraphs[0], node_size=200, width=1.5, with_labels=True)
 # plt.show()

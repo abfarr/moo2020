@@ -1,9 +1,7 @@
 import autograd.numpy as anp # wrapper for numpy to help with differentiation... can we just use np?
 from pymoo.model.problem import Problem
 
-### Test Problem with pymoo: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9078759
-
-class WeightedMoo(Problem):
+class GraphMoo(Problem):
     def __init__(self, G, T, start_nodes, alpha=0.1):
         # Store necessary constants
         self.G = G
